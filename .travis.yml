@@ -2,3 +2,4 @@ language: java
 script: mvn clean test
 jdk:
   - adopt-openj9-11
+  install: skip
